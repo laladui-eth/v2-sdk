@@ -1,5 +1,9 @@
 # Uniswap V2 SDK
 
+## Contract Address
+
+1. When the `Factory` contract was deployed to network, we need to replace the `FACTORY_ADDRESS` in `constants.ts` to our own contract address.
+
 [![Unit Tests](https://github.com/Uniswap/uniswap-v2-sdk/workflows/Unit%20Tests/badge.svg)](https://github.com/Uniswap/uniswap-v2-sdk/actions?query=workflow%3A%22Unit+Tests%22)
 [![Lint](https://github.com/Uniswap/uniswap-v2-sdk/workflows/Lint/badge.svg)](https://github.com/Uniswap/uniswap-v2-sdk/actions?query=workflow%3ALint)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
